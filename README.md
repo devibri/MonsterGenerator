@@ -25,16 +25,16 @@ Tiles must be oriented the same way as ours.
 1. Head
 ![alt text](https://i.imgur.com/RiMIcTR.png "Head Image")
 2. Chest
-<img alt="chest" src="https://i.imgur.com/nP0EXBv.png">
+![alt text](https://i.imgur.com/nP0EXBv.png "Chest Image")
 3. Abs
-<img alt="abs" src="https://i.imgur.com/eNmM7wJ.png">
+![alt text](https://i.imgur.com/eNmM7wJ.png "Abs Image")
 4. Legs
-<img alt="legs" src="https://i.imgur.com/1sXJjtI.png">
+![alt text](https://i.imgur.com/1sXJjtI.png "Legs Image")
 5. Feet
-<img alt="feet" src="https://i.imgur.com/moZ6lJk.png">
+![alt text](https://i.imgur.com/moZ6lJk.png "Feet Image")
 6. Arm
-<img alt="arm" src="https://i.imgur.com/Xp7nZdh.png">
+![alt text](https://i.imgur.com/Xp7nZdh.png "Arm Image")
 7. Hand
-<img alt="hand" src="https://i.imgur.com/S2xE52R.png">
+![alt text](https://i.imgur.com/S2xE52R.png "Hand Image")
 8. Empty
-<img alt="empty" src="https://i.imgur.com/owWpdcU.png">
+![alt text](https://i.imgur.com/owWpdcU.png "Empty Image")
