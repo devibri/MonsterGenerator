@@ -1,7 +1,8 @@
 # MonsterGenerator
 Using WaveFunction Collapse to make monstrous bodies!
+A project by Devi Acharya, Rehaf Aljammaz, and Mirek Stolee
 
-This is a set of rules used with [Maxim Gumin's WFC in C#.](https://github.com/math-fehr/fast-wfc) It uses the Simple Tiled Model with custom tilesets.
+This is a set of rules used with [Maxim Gumin's WFC in C#.](https://github.com/math-fehr/fast-wfc). It uses Gumin's SimpleTiledModel as a base. We add our tileset and rules for placing those tiles.
 
 ## Outputs
 Produces a NxN image made of 32x32px tiles.
