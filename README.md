@@ -4,6 +4,8 @@ Using WaveFunction Collapse to make monstrous bodies!
 This is a set of rules used with [Maxim Gumin's WFC in C#.](https://github.com/math-fehr/fast-wfc) It uses the Simple Tiled Model with custom tilesets.
 
 ## Outputs
+Produces a NxN image made of 32x32px tiles.
+![alt text](./exampleOutput/bigZombie.png "big zombie")
 We have provided two tilesets - zombie and centipede.
 <p align="left"><img alt="zombie" src="https://i.imgur.com/FQA98n4.png"></p>
 <p align="left"><img alt="centipede" src="https://i.imgur.com/WmPIhV0.png"></p>
@@ -15,9 +17,11 @@ We have provided two tilesets - zombie and centipede.
 3. After running, output will appear in the root directory.
 
 ## Progress shots
-Here are some images showing the process of making the project:
-<p align="left"><img alt="zombie" src="https://i.imgur.com/FQA98n4.png">
-<img alt="centipede" src="https://i.imgur.com/WmPIhV0.png"></p>
+Here are some images showing the process of making the project.
+We had some issues with arms:
+<p align="left"><img alt="ARMy" src="https://i.imgur.com/IxgJ432.png">
+<img alt="SuperArms" src="https://i.imgur.com/2VZTTZO.png">
+<img alt="mindControlArms" src="https://i.imgur.com/H9A6D2m.png"></p>
 
 ## Tiles
 To make your own tilesets, you need the following tiles in the .png format.

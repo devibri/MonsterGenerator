@@ -4,9 +4,9 @@
 <!-- Height - height of output in tiles -->
 <samples>
 	<!-- Zombie -->
-	<simpletiled name="Zombie" width="10" height="10"/>
+	<simpletiled name="Zombie" width="12" height="12"/>
 	<!-- Centipede -->
-	<simpletiled name="Centipede" width="10" height="10"/>
+	<simpletiled name="Centipede" width="12" height="12"/>
 </samples>
 
 <!-- if adding own tiles - the name field must match the name of the folder

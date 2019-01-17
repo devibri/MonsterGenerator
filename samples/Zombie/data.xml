@@ -69,6 +69,7 @@
 		<neighbor left="chest" right="chest"/>
 		<neighbor left="chest" right="abs"/>
 		<neighbor left="chest" right="arm"/>
+
 		<!-- legs -->
 		<neighbor left="abs 1" right="legs 1"/>
 		<neighbor left="legs 1" right="feet 1"/>
