@@ -15,16 +15,26 @@ We have provided two tilesets - zombie and centipede.
 3. After running, output will appear in the root directory.
 
 ## Progress shots
-<p align="left"><img alt="zombie" src="https://i.imgur.com/FQA98n4.png"></p>
-<p align="left"><img alt="centipede" src="https://i.imgur.com/WmPIhV0.png"></p>
+Here are some images showing the process of making the project:
+<p align="left"><img alt="zombie" src="https://i.imgur.com/FQA98n4.png">
+<img alt="centipede" src="https://i.imgur.com/WmPIhV0.png"></p>
 
 ## Tiles
 To make your own tilesets, you need the following tiles in the .png format.
 Tiles must be oriented the same way as ours.
 1. Head
+<img alt="head" src="https://i.imgur.com/RiMIcTR.png">
 2. Chest
+<img alt="chest" src="https://i.imgur.com/nP0EXBv.png">
 3. Abs
+<img alt="abs" src="https://i.imgur.com/eNmM7wJ.png">
 4. Legs
+<img alt="legs" src="https://i.imgur.com/1sXJjtI.png">
 5. Feet
+<img alt="feet" src="https://i.imgur.com/moZ6lJk.png">
 6. Arm
+<img alt="arm" src="https://i.imgur.com/Xp7nZdh.png">
 7. Hand
+<img alt="hand" src="https://i.imgur.com/S2xE52R.png">
+8. Empty
+<img alt="empty" src="https://i.imgur.com/owWpdcU.png">
