@@ -5,7 +5,7 @@ This is a set of rules used with [Maxim Gumin's WFC in C#.](https://github.com/m
 
 ## Outputs
 Produces a NxN image made of 32x32px tiles.
-![alt text](./exampleOutput/bigZombie.png "big zombie")
+<img alt="big Zombie" src="./exampleOutput/bigZombie.png">
 We have provided two tilesets - zombie and centipede.
 <p align="left"><img alt="zombie" src="https://i.imgur.com/FQA98n4.png"></p>
 <p align="left"><img alt="centipede" src="https://i.imgur.com/WmPIhV0.png"></p>
