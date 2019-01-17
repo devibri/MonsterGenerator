@@ -1,3 +1,13 @@
+<!-- Determines what is output -->
+<!-- Name - which type of monster -->
+<!-- Width - width of output in tiles -->
+<!-- Height - height of output in tiles -->
 <samples>
-	<simpletiled name="Monster" width="4" height="8"/>
+	<!-- Zombie -->
+	<simpletiled name="Zombie" width="10" height="10"/>
+	<!-- Centipede -->
+	<simpletiled name="Centipede" width="10" height="10"/>
 </samples>
+
+<!-- if adding own tiles - the name field must match the name of the folder
+within ./samples which has your tiles in it -->

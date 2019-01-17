@@ -1,0 +1,89 @@
+<!-- Size of tiles in pixels - do not change unless using your own tiles! -->
+<set size="32">
+	<!-- Name of each tile and type of symmetry -->
+	<tiles>
+		<tile name="chest" symmetry="T"/>
+		<tile name="abs" symmetry="T"/>
+		<tile name="arm" symmetry="L"/>
+		<tile name="legs" symmetry="I"/>
+		<tile name="feet" symmetry="I"/>
+		<tile name="hand" symmetry="T"/>
+		<tile name="empty" symmetry="X"/>
+		<tile name="head" symmetry="I"/>
+	</tiles>
+
+	<!-- Adjacency rules -->
+	<neighbors>
+		<!-- abs -->
+		<neighbor left="abs" right="legs"/>
+		<neighbor left="abs" right="chest"/>
+		<neighbor left="abs" right="abs"/>
+		<neighbor left="abs" right="arm"/>
+
+		<!-- arm -->
+		<neighbor left="chest" right="arm 2"/>
+		<neighbor left="arm" right="arm 1"/>
+		<neighbor left="arm" right="chest"/>
+		<neighbor left="arm 1" right="abs"/>
+		<neighbor left="arm 3" right="arm 2"/>
+		<neighbor left="arm 1" right="arm"/>
+		<neighbor left="arm 1" right="legs"/>
+		<neighbor left="arm 1" right="feet"/>
+		<neighbor left="arm 2" right="legs"/>
+		<neighbor left="arm 2" right="abs"/>
+		<neighbor left="arm 2" right="feet"/>
+		<neighbor left="arm 3" right="arm 2"/>
+		<neighbor left="arm 3" right="hand 3"/>
+
+		<!-- hand -->
+		<neighbor left="hand" right="abs"/>
+		<neighbor left="hand" right="legs"/>
+		<neighbor left="hand" right="chest"/>
+		<neighbor left="hand" right="head"/>
+		<neighbor left="hand" right="feet"/>
+		<neighbor left="hand 1" right="arm 1"/>
+		<neighbor left="hand 2" right="abs"/>
+		<neighbor left="hand 2" right="legs"/>
+		<neighbor left="hand 2" right="chest"/>
+		<neighbor left="hand 2" right="head"/>
+		<neighbor left="hand 2" right="feet"/>
+		<neighbor left="hand 3" right="abs"/>
+		<neighbor left="hand 3" right="legs"/>
+		<neighbor left="hand 3" right="chest"/>
+		<neighbor left="hand 3" right="head"/>
+		<neighbor left="hand 3" right="feet"/>
+
+
+		<!-- head -->
+		<neighbor left="head" right="chest"/>
+		<neighbor left="head" right="legs"/>
+		<neighbor left="head" right="abs"/>
+		<neighbor left="head" right="arm"/>
+		<neighbor left="head 1" right="chest"/>
+
+		<!-- chest -->
+		<neighbor left="chest" right="chest 1"/>
+		<neighbor left="head 1" right="chest 1"/>
+		<neighbor left="chest 1" right="abs 1"/>
+		<neighbor left="chest" right="legs"/>
+		<neighbor left="chest" right="chest"/>
+		<neighbor left="chest" right="abs"/>
+		<neighbor left="chest" right="arm"/>
+		<!-- legs -->
+		<neighbor left="abs 1" right="legs 1"/>
+		<neighbor left="legs 1" right="feet 1"/>
+		<neighbor left="legs" right="legs"/>
+		<neighbor left="legs" right="chest"/>
+		<neighbor left="legs" right="abs"/>
+		<neighbor left="legs" right="arm"/>
+
+		<!-- empty -->
+		<neighbor left="empty" right="empty"/>
+		<neighbor left="arm 1" right="empty"/>
+		<neighbor left="hand" right="empty"/>
+		<neighbor left="legs" right="empty"/>
+		<neighbor left="abs" right="empty"/>
+		<neighbor left="feet" right="empty"/>
+		<neighbor left="head" right="empty"/>
+	</neighbors>
+</set>
