@@ -1,0 +1,46 @@
+<set size="32">
+	<tiles>
+		<!-- <tile name="chest" symmetry="I"/>
+		<tile name="abs" symmetry="I"/>
+		<tile name="arm" symmetry="L"/>
+		<tile name="legs" symmetry="I"/>
+		<tile name="feet" symmetry="I"/>
+		<tile name="handL" symmetry="T"/>
+		<tile name="handR" symmetry="T"/> -->
+		<!-- <tile name="empty" symmetry="I"/> -->
+		<tile name="head" symmetry="X"/>
+	</tiles>
+	<neighbors>
+		<!-- arm is "our left"
+				 arm 1 is "our right"
+		-->
+		<neighbor left="head" right="head"/>
+		<!-- <neighbor left="head" right="empty"/>
+		<neighbor left="empty" right="head"/> -->
+		<!-- <neighbor left="arm" right="chest"/>
+		<neighbor left="chest" right="arm 1"/>
+		<neighbor left="empty" right="abs"/>
+		<neighbor left="abs" right="empty"/>
+		<neighbor left="empty" right="legs"/>
+		<neighbor left="legs" right="empty"/>
+		<neighbor left="empty" right="arm"/>
+		<neighbor left="arm 1" right="empty"/>
+		<neighbor left="empty" right="feet"/>
+		<neighbor left="feet" right="empty"/> -->
+		<!-- <neighbor left="empty" right="handL"/>
+		<neighbor left="handL" right="empty"/>
+		<neighbor left="empty" right="handR"/>
+		<neighbor left="handR" right="empty"/> -->
+		<!-- <neighbor left="arm 3" right="arm 2"/>
+		<neighbor left="empty" right="arm 3"/>
+		<neighbor left="arm 2" right="empty"/>
+		<neighbor left="arm" right="arm 2"/>
+		<neighbor left="arm 3" right="arm 1"/>
+		<neighbor left="empty" right="arm 3"/>
+		<neighbor left="arm 2" right="empty"/>
+		<neighbor left="arm" right="handL 3"/>
+		<neighbor left="handR 1" right="arm 1"/>
+		<neighbor left="arm 3" right="handL 3"/>
+		<neighbor left="handL 1" right="arm 2"/> -->
+	</neighbors>
+</set>
