@@ -23,7 +23,7 @@ Here are some images showing the process of making the project:
 To make your own tilesets, you need the following tiles in the .png format.
 Tiles must be oriented the same way as ours.
 1. Head
-<p><img alt="head" src="https://i.imgur.com/RiMIcTR.png"></p>
+<img alt="head" src="https://i.imgur.com/RiMIcTR.png">
 2. Chest
 <img alt="chest" src="https://i.imgur.com/nP0EXBv.png">
 3. Abs
