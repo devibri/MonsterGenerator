@@ -7,7 +7,7 @@ This is a set of rules used with [Maxim Gumin's WFC in C#.](https://github.com/m
 Produces a NxN image made of 32x32px tiles.
 <p align="center"><img alt="big Zombie" src="./exampleOutput/bigZombie.png"></p>
 We have provided two tilesets - zombie and centipede.
-<p align="left"><img alt="zombie" src="https://i.imgur.com/FQA98n4.png"><img alt="centipede" src="https://i.imgur.com/WmPIhV0.png"></p>
+<p align="center"><img alt="zombie" src="https://i.imgur.com/FQA98n4.png"><img alt="centipede" src="https://i.imgur.com/WmPIhV0.png"></p>
 
 ## How to use
 1. Open samples.xml
